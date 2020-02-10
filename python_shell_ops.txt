@@ -1,0 +1,19 @@
+#Enter the commands below to start Python Shell
+#Using tweepy
+$ python shell
+>>import tweepy
+>>copy all keys and auths code and paste here
+>>api (Read tweepy documentation)
+>>api.mentions_timeline()
+>>mentions = api.mentions_timeline()
+>>type(mentions)
+>>mentions[0]
+>>type(mentions[0]) (This shows that the type is a class)
+>>mentions[0].__dict__ (To convert the obj into a dictionary)
+>>mentions[0].__dict__.keys()
+>>mentions[0].text
+>>mentions[0].id
+>>type(mentions[0].id)
+>>mentions = api.mentions_timeline() (This is the code to use in Python file)
+
+
